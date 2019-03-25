@@ -18,6 +18,6 @@ else
     FINAL_MESSAGE="$VK_MESSAGE"
 fi
 
-FINAL_URL="access_token=$VK_TOKEN&v=5.87&user_ids=$VK_USERS&message=$VK_MESSAGE"
+FINAL_URL="access_token=$VK_TOKEN&v=5.87&user_ids=$VK_USERS&message=$FINAL_MESSAGE"
 
 curl -d "$FINAL_URL" https://api.vk.com/method/messages.send
