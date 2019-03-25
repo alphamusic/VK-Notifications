@@ -13,7 +13,7 @@ if [[ -z "$VK_USERS" ]]; then
 fi
 
 if [[ -z "$VK_MESSAGE" ]]; then
-    FINAL_MESSAGE=$'GitHub Notification 🔔\n📚 Repository:'+"$GITHUB_REPOSITORY"+$'\n🌳 Branch: ' + "$GITHUB_REF" + $'\n📃 Event: ' + "$GITHUB_EVENT_NAME"
+    FINAL_MESSAGE=$'GitHub Notification 🔔\n📚 Repository:'+"$GITHUB_REPOSITORY"+$'\n🌳 Branch: '+"$GITHUB_REF"+$'\n📃 Event: '+"$GITHUB_EVENT_NAME"
 else
     FINAL_MESSAGE="$VK_MESSAGE"
 fi
