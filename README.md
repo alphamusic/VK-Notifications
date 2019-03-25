@@ -6,7 +6,7 @@ This action for VK Notification
 
 ### Environment
 * VK_USERS (Required) - list of users id, who need to be notified. separated by ","
-* VK_Message (Optional) - text of notification
+* VK_MESSAGE (Optional) - text of notification
 
 ##### Example
 ```
