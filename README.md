@@ -11,7 +11,7 @@ This action for VK Notification
 ##### Example
 ```
 action "VK Notification" {
-    uses = "hit2hat/VK-Notifications"
+    uses = "alphamusic/VK-Notifications"
     secrets = ["VK_TOKEN"]
     env = {
         VK_USERS = "182625786"
