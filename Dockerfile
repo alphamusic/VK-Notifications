@@ -1,8 +1,8 @@
 FROM alpine:latest
 
 LABEL version="1.0.0"
-LABEL repository="https://github.com/hit2hat/VK-Notifications"
-LABEL homepage="https://github.com/hit2hat/VK-Notifications"
+LABEL repository="https://github.com/alphamusic/VK-Notifications"
+LABEL homepage="https://github.com/alphamusic/VK-Notifications"
 LABEL maintainer="Stepan Novozhilov <hit2hat@icloud.com>"
 
 LABEL com.github.actions.name="VK Notifications"
