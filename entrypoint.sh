@@ -1,8 +1,5 @@
 #!/bin/sh
 
-if [[ -z "$VK_TOKEN" ]]; then
-    echo "VK_TOKEN is required to run this action"
-    exit 126
 fi
 
 if [[ -z "$VK_USERS" ]]; then
